@@ -65,10 +65,10 @@ export default StyleSheet.create({
     },
     list_item_title:{
         color: Color.colorWhite,
-        fontSize: 20,
+        fontSize: 26,
         fontWeight:"700",
         padding: 15,
-        textAlign: "center",
+        textAlign: 'center',
     },
     list_item_text:{
         color: Color.colorWhite,
@@ -79,7 +79,7 @@ export default StyleSheet.create({
     },
     list_item_desctext:{
         color: Color.colorWhite,
-        fontSize: 24,
+        fontSize: 22,
         fontWeight:"800",
         padding: 5,
         textAlign: "left",

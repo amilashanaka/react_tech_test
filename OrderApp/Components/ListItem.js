@@ -7,7 +7,7 @@ function OrderListItem({title, tbn , hc, cn}) {
     return (
 
         <View style={AppStyles.list_item_container}>
-            <View style={{flexDirection:"row", flex: 1}}>
+            <View style={{flexDirection:"row", flex: 1,}}>
                 <Text style={AppStyles.list_item_title} >Table {tbn}</Text>
             </View>
             <View style={{flexDirection:"row"}}>
@@ -23,9 +23,6 @@ function OrderListItem({title, tbn , hc, cn}) {
                 <Text style={AppStyles.list_item_text}>PAYMENT TYPE</Text>
                 <Text style={AppStyles.list_item_desctext}>{cn}</Text>
             </View>
-
-            
-            
         </View>
 
     );
