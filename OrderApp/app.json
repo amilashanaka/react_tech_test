@@ -26,6 +26,7 @@
       ]
     ],
     "android": {
+      "package": "com.samitha.reacttest",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -33,6 +34,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2031afa9-1ad2-4e38-ade0-b3f8161e7d96"
+      }
     }
   }
 }

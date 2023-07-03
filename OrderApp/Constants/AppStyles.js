@@ -36,6 +36,10 @@ export default StyleSheet.create({
         backgroundColor: Color.colorPrimary,
         borderRadius: 5,
     },
+    payment_button_action:{
+        backgroundColor: Color.textColor_subtitle_gray,
+        borderRadius: 5,
+    },
     button_action_text:{
         color: Color.colorWhite,
         fontSize: 15,
@@ -69,7 +73,7 @@ export default StyleSheet.create({
         fontWeight:"700",
         padding: 15,
         textAlign: 'center',
-        
+
     },
     list_item_text:{
         color: Color.colorWhite,
