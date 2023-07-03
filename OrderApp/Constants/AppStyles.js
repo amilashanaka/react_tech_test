@@ -69,6 +69,7 @@ export default StyleSheet.create({
         fontWeight:"700",
         padding: 15,
         textAlign: 'center',
+        
     },
     list_item_text:{
         color: Color.colorWhite,
